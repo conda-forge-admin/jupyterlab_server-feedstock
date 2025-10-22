@@ -1,7 +1,7 @@
 import sys
 from subprocess import call
 
-FAIL_UNDER = 85
+FAIL_UNDER = 79
 SKIPS = [
     # 0.28.0 non-basic locales used in tests not available in CI docker image
     "get_locale",
@@ -38,7 +38,7 @@ REPORT = [
 
 def do(args: list[str]) -> int:
     print(">>>", *args, flush=True)
-    return call(args)
+    return call(args, cwd="tests")
 
 
 if __name__ == "__main__":
