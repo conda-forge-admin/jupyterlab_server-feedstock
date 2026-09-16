@@ -3,11 +3,13 @@ About jupyterlab_server-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab_server-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/jupyterlab/jupyterlab_server
+Home: https://pypi.org/project/jupyterlab-server
 
 Package license: BSD-3-Clause
 
 Summary: A set of server components for JupyterLab and JupyterLab like applications.
+
+Development: https://github.com/jupyterlab/jupyterlab_server
 
 Documentation: https://jupyterlab-server.readthedocs.io/
 
